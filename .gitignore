@@ -1,0 +1,15 @@
+node_modules
+
+.eslintcache
+.npm
+*.tsbuildinfo
+
+.env.           #  private information, including security keys
+.env.test
+
+*.log
+logs
+npm-debug.log*
+
+.DS_Store       # Macs often create this file
+notes.md        # Personal project notes, not my reference.

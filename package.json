@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-2024",
+  "packageManager": "yarn@4.5.3",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "run:1": "ts-node -r tsconfig-paths/register src/1/index.ts",
+    "run:2": "ts-node -r tsconfig-paths/register src/2/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
