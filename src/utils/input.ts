@@ -11,6 +11,16 @@ function readFullFile(dir: PathOrFileDescriptor, filename: PathOrFileDescriptor)
   });
 };
 
+export async function readFullFileNumberNumbers(dir: PathOrFileDescriptor, filename: PathOrFileDescriptor = 'input') {
+  const data = await readFullFile(dir, filename);
+  return data.split('\n').map(str => str.split('').map(Number));
+}
+
+export async function readFullFileStringStrings(dir: PathOrFileDescriptor, filename: PathOrFileDescriptor = 'input') {
+  const data = await readFullFile(dir, filename);
+  return data.split('\n').map(str => str.split('').map(String));
+}
+
 export async function readFullFileNumbers(dir: PathOrFileDescriptor, filename: PathOrFileDescriptor = 'input') {
   const data = await readFullFile(dir, filename);
   return data.split('\n').map(Number);
