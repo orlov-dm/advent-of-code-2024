@@ -10,7 +10,8 @@
     "run:2": "ts-node -r tsconfig-paths/register src/2/index.ts",
     "run:3": "ts-node -r tsconfig-paths/register src/3/index.ts",
     "run:4": "ts-node -r tsconfig-paths/register src/4/index.ts",
-    "run:5": "ts-node -r tsconfig-paths/register src/5/index.ts"
+    "run:5": "ts-node -r tsconfig-paths/register src/5/index.ts",
+    "run:6": "ts-node -r tsconfig-paths/register src/6/index.ts"
   },
   "dependencies": {
     "ts-node": "^10.9.2",
